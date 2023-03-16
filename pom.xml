@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>facade</module>
+        <module>facade-client-autoconfig</module>
     </modules>
 
     <properties>

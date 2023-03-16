@@ -13,7 +13,7 @@ public class DataSourceConfig {
     @Bean
     public DataSource dataSource(){
         return new EmbeddedDatabaseBuilder()
-                .addScript("schema.sql")
+                //.addScript("schema.sql")
                 .generateUniqueName(true)
                 .build();
     }
